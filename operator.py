@@ -29,3 +29,18 @@ print(x is y)
 # returns False because x is not the same object as y, even if they have the same content
 print(x == y)
 # to demonstrate the difference betweeen "is" and "==": this comparison returns True because x is equal to y
+'''
+string operators
++*r% format() in not in
+'''
+#start of string check
+a="Zetech"
+b="University"
+print(a+b)              #combines two strings/concatenation
+print(a*4)              #repeats a string number of times indicated
+print("hi{}".format(b))
+print('h' in a)         #returns true or false based on boolean
+print('n' not in a)     #returns true or false based on boolean
+print('x'in a)          #checking is a char is in a string and returns T OR F
+print('h' not in a) 
+#End of string check
